@@ -1,8 +1,8 @@
 # Portfolio
 
  
-<h2>1 - Pequenos projetos de Data Science e Machine Learning</h2>
-<h3>Projetos feitos, se baseando em livros e tutoriais na internet, os trechos de código servem também como consulta.</h3>
+<h3>1 - Pequenos projetos de Data Science e Machine Learning</h3>
+<p>Projetos feitos, se baseando em livros e tutoriais na internet, os trechos de código servem também como consulta.</p>
 
-<h2>2 - Computação científica</h2>
-<h3>Trechos de código envolvendo computação científica.</h3>
+<h3>2 - Computação científica</h3>
+<p>Trechos de código envolvendo computação científica.</p>
