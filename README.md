@@ -1,7 +1,7 @@
 # Portfolio
 
  
-<h3>1 - Pequenos projetos de Data Science e Machine Learning</h3>
-<p>Projetos feitos, se baseando em livros e tutoriais na internet, os trechos de código servem também como consulta.</p>
+<h3>1 - Data Science and Machine Learning projects</h3>
+<p>Projects made, based on books and tutorials on the internet, the code snippets also serve as a reference.</p>
 
 
