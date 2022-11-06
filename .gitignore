@@ -1,4 +1,8 @@
 .gitattributes
 .ipynb_checkpoints
+notes.txt
+stock_market
+1_CRUD_Flask/meubanco.sql
+1_CRUD_Flask/__pycache__
 1 - Data Science e Machine Learning/.ipynb_checkpoints
 1 - Data Science e Machine Learning/datasets/
