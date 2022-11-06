@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <body>
+    <form method="post" action="/users/update/{{user.id}}">
+      Name: <input type="text" name="name" value="{{user.name}}"><br>
+      E-mail: <input type="text" name="email" value="{{user.email}}"><br>
+      Password: <input type="password" name="password"><br>
+      Password confirmation: <input type="password" name="cpassword"><br>
+
+      <input type="submit" value="Register">
+    </form>
+  </body>
+</html>

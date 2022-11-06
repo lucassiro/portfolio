@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <body>
+    Do you have shure?
+    you will delete the user {{user.name}}
+
+    <form method="post", action=/users/delete/{{user.id}}">
+      <input type="submit" value="yes">
+    </form>
+    <a href="/users/recovery">Cancel</a>
+  </body>
+</html>
