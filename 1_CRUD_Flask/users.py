@@ -17,8 +17,8 @@ def create():
         password = request.form.get("password")
         cpassword = request.form.get("cpassword")
 
-        u = User(name, email, password)
-        db.session.add(u)
+        user = User(name, email, password)
+        db.session.add(user)
         db.session.commit()
         return "OK"
 
@@ -29,7 +29,6 @@ def recovery():
 
 @bp_users.route("/update/<int:id>", methods=["GET", "POST"])
 def update(id):
-
     user = User.query.get(id)
 
     if request.method == "GET":
