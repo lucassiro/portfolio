@@ -3,17 +3,17 @@
 from flask import Flask
 from database import db
 from flask_migrate import Migrate
-from usuarios import bp_usuarios
+from users import bp_users
 
 app = Flask(__name__)
 
 db.init_app(app)
-conexao = "sqlite:///meubanco.sqlite"
+conection = "sqlite:///database.sqlite"
 
-app.config["SECRET_KEY"] = "minha-chave"
-app.config["SQLALCHEMY_DATABASE_URI"] = conexao
+app.config["SECRET_KEY"] = "my-key"
+app.config["SQLALCHEMY_DATABASE_URI"] = conection
 app.config["SQLALCHEMY_TRACKMODIFICATIONS"] = False
-app.register_blueprint(bp_usuarios, url_prefix="/usuarios")
+app.register_blueprint(bp_users, url_prefix="/users")
 
 migrate = Migrate(app, db)
 
