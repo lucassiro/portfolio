@@ -1,17 +1,17 @@
 from database import db
 
-class Usuario(db.Model):
-    __tablename__ = "usuario"
+class User(db.Model):
+    __tablename__ = "user"
     id = db.Column(db.Integer, primary_key=True)
-    nome = db.Column(db.String(100))
+    name = db.Column(db.String(100))
     email = db.Column(db.String(100))
-    senha = db.Column(db.String(100))
+    password = db.Column(db.String(100))
 
-    def __init__ (self, nome, email, senha):
-        self.nome = nome
+    def __init__ (self, name, email, password):
+        self.name = name
         self.email = email
-        self.senha = senha
+        self.password = password
     
     def __repr__(self):
-        return f"Usuario: {self.nome}"
+        return f"User: {self.name}"
         
