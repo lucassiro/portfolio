@@ -1,5 +1,3 @@
-# https://www.youtube.com/watch?v=XPPYPb3ByiM
-
 from flask import Flask
 from database import db
 from flask_migrate import Migrate
