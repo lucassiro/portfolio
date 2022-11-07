@@ -1,8 +1,10 @@
 To execute the project
 
-First
-Create the database
+Install depedencies with<br>
+<code>pip3 install requirements.txt</code>
 
-Second
-in your terminal execute
+Create the database
+<code></code>
+
+Execute the project
 <code>python3 main.py</code>
