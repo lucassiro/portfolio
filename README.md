@@ -1,10 +1,10 @@
 # Portfolio
 
-# CRUD with Flask
+### **CRUD with Flask**
 #### This first project is an CRUD in Python using the framework Flask
  
-# Machine learning
+### **Machine learning**
 #### Notebooks with projects
 
-# Data analysis
+### **Data analysis**
 #### Exploratory analysis
