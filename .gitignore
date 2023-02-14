@@ -1,7 +1,5 @@
+*__pycache__
 .ipynb_checkpoints/
 .gitattributes
-1_CRUD_Flask/meubanco.sql
-1_CRUD_Flask/__pycache__
-1_CRUD_Flask/migrations
-3_Data_science_and_machine_learning/datasets
-3_Data_science_and_machine_learning/state_of_data_2021.ipynb
+crud_flask/meubanco.sql
+crud_flask/migrations
