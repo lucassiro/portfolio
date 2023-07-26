@@ -16,10 +16,10 @@ This first project is about image classification, a model with ResNet50 architec
   
 ![](assets/neural.jpg)
   
-The model was trained for 10 epochs.
+The model was trained for 5 epochs.
 After training, 5.000 images were used for validation.  
 **Loss:** 0.04524622857570648  
-**Accuracy:** 0.9847999811172485  
+**Accuracy:** 0.9847999811172485
   
 The obtained classification model was converted to the ONNX format, the model in this format is an excellent option to deploy, the model file is not only lighter, but also has a shorter inference time when compared to the standard tensorflow format.
 
