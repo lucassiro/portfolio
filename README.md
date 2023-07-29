@@ -1,7 +1,6 @@
 # Selected projects in Data Science and Machine Learning
 
 ---
-
 ## Image Classification
 ![](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
 ![](https://img.shields.io/badge/Jupyter-F37626.svg?&style=for-the-badge&logo=Jupyter&logoColor=white)
@@ -18,11 +17,21 @@ This first project is about image classification, a model with ResNet50 architec
   
 The model was trained for 5 epochs.
 After training, 5.000 images were used for validation.  
-**Loss:** 0.04524622857570648  
-**Accuracy:** 0.9847999811172485
+**Loss:** 0.04525  
+**Accuracy:** 0.9848
   
 The obtained classification model was converted to the ONNX format, the model in this format is an excellent option to deploy, the model file is not only lighter, but also has a shorter inference time when compared to the standard tensorflow format.
-
+___
+## Image Segmentation
+![](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
+![](https://img.shields.io/badge/Jupyter-F37626.svg?&style=for-the-badge&logo=Jupyter&logoColor=white)
+![](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![](https://img.shields.io/badge/Numpy-777BB4?style=for-the-badge&logo=numpy&logoColor=white)
+  
+[**Link to notebook**](projects/image_segmentation/image_segmentation.ipynb)
+  
+Test
+  
 ---
 ## Linear regression
 ![](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
@@ -43,6 +52,7 @@ The **concentration** is the unit that tells us how much of that analyte is in a
 Calibration curve values (or regression)  
 **Concentration** = 9.8576 * ABS + 0.0961  
 **R-square** = 0.999683
+
 ___
 <!-- ## Data Analysis
 ![](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
