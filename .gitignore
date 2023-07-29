@@ -2,6 +2,8 @@
 *.model
 projects/image_classification/models
 projects/image_classification/examples
+projects/image_segmentation
+projects/language_model
 *__pycache__
 *.ipynb_checkpoints/
 .gitattributes
