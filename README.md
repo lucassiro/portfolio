@@ -21,7 +21,7 @@ After training, 5.000 images were used for validation.
 **Accuracy:** 0.9848
   
 The obtained classification model was converted to the ONNX format, the model in this format is an excellent option to deploy, the model file is not only lighter, but also has a shorter inference time when compared to the standard tensorflow format.
-___
+<!-- ___
 ## Image Segmentation
 ![](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue)
 ![](https://img.shields.io/badge/Jupyter-F37626.svg?&style=for-the-badge&logo=Jupyter&logoColor=white)
@@ -30,7 +30,7 @@ ___
   
 [**Link to notebook**](projects/image_segmentation/image_segmentation.ipynb)
   
-Test
+Test -->
   
 ---
 ## Linear regression
